@@ -13,4 +13,3 @@ for i, (img, attr) in enumerate(dataset):
     else:
 	img.save(f'{target_attr}0/{i:05d}.jpg')
 ```
-
